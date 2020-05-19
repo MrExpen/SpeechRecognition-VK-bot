@@ -52,5 +52,5 @@ if __name__ == '__main__':
         except KeyboardInterrupt:
             print('\nKeyboardInterrupt at', time.strftime("%Y.%m.%d %H:%M:%S", time.localtime()))
             break
-        except NameError as e:
-            print(e, time.strftime("%Y.%m.%d %H:%M:%S", time.localtime()))
+        except:
+            print('ERROR ocorupted ad', time.strftime("%Y.%m.%d %H:%M:%S", time.localtime()))
